@@ -1,0 +1,33 @@
+# Node & frontend build
+node_modules/
+dist/
+build/
+.cache/
+*.log
+
+# Vue specific
+frontend/node_modules/
+frontend/dist/
+
+# FastAPI / Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.egg-info/
+.env
+venv/
+.env.*
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local testing or deployment configs
+*.local
+*.secret
+.envrc
